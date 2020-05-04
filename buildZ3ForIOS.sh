@@ -10,6 +10,9 @@ env CPPFLAGS="-arch arm64 -mios-version-min=12.0 -isysroot /Applications/Xcode.a
 
 cd build
 
+# this will overwrite the CPPFLAGS we just set anyway.. I jsut wanted to grab a custom LINK and SLINK env
+cp ../../config.mk ./
+
 make
 
 
