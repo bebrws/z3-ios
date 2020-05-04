@@ -1,3 +1,12 @@
+######### 
+
+Just run:
+
+buildZ3ForIOS.sh
+ 
+
+######### Original README.md
+
 Here's a stupid app that runs Z3 on an iOS device.
 It's incredibly buggy and untested.
 It definitely won't work in the Xcode simulator.
